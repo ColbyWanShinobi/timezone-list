@@ -1,0 +1,30 @@
+/* Timezone List Extension Styles */
+
+/* Panel indicator styles */
+.timezone-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Ensure the rocket emoji is properly sized */
+.system-status-icon {
+    font-size: 16px;
+}
+
+/* Panel text styling */
+.panel-status-text {
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+/* Menu item styling for timezone entries */
+.timezone-menu-item {
+    font-family: monospace;
+    font-size: 12px;
+}

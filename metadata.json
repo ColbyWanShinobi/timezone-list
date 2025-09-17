@@ -1,0 +1,9 @@
+{
+  "name": "Timezone List",
+  "description": "Quick access to current times in multiple timezones with customizable panel display and preferences",
+  "uuid": "timezone-list@gnome-shell-extensions",
+  "shell-version": ["45", "46", "47", "48"],
+  "url": "https://github.com/user/timezone-list",
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.timezonelist"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.timezonelist" path="/org/gnome/shell/extensions/timezonelist/">
+    
+    <key name="show-text" type="b">
+      <default>false</default>
+      <summary>Show time text next to icon</summary>
+      <description>Display selected timezone time alongside the rocket icon in the panel</description>
+    </key>
+    
+    <key name="cycle-enabled" type="b">
+      <default>false</default>
+      <summary>Enable cycling through timezones</summary>
+      <description>Automatically rotate through all configured timezones in the panel text</description>
+    </key>
+    
+    <key name="cycle-interval" type="i">
+      <default>10</default>
+      <range min="5" max="3600"/>
+      <summary>Cycle interval in seconds</summary>
+      <description>How many seconds each timezone is displayed before switching to the next</description>
+    </key>
+    
+    <key name="primary-timezone" type="s">
+      <default>'America/New_York'</default>
+      <summary>Primary timezone to display</summary>
+      <description>The timezone to show in panel text when cycling is disabled</description>
+    </key>
+    
+    <key name="timezones" type="as">
+      <default>['America/New_York', 'Europe/Berlin', 'Asia/Singapore', 'Australia/Sydney']</default>
+      <summary>List of configured timezones</summary>
+      <description>Up to 10 timezones to display in tooltip and menu</description>
+    </key>
+    
+  </schema>
+</schemalist>
